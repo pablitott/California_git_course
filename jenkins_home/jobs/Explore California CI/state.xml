@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.5.5">
+  <sourceActions>
+    <entry>
+      <string>233c9413-7434-47e1-b8c3-8e2ec68d4ffa</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@4.1.1">
+          <remote>file:///app</remote>
+          <name>master</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>
