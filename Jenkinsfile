@@ -11,12 +11,18 @@ pipeline {
 
     stage('Run unit tests') {
       steps {
+        sh 'whoami'
+        sh 'pwd'
+        echo "I'm in unit tests"
         sh "scripts/unit_tests.sh"
       }
     }
 
-    stage('Deloy website') {
+    stage('Deploy website') {
       steps {
+        sh 'whoami'
+        sh 'pwd'
+        echo "Deploy website"
         sh "scripts/deploy_website.sh"
       }
     }
