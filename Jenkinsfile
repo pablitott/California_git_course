@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'whoami'
 	sh 'pwd' 
+	sh 'll'
         sh "scripts/build.sh"
       }
     }
@@ -13,6 +14,7 @@ pipeline {
       steps {
         sh 'whoami'
         sh 'pwd'
+	sh 'll'
         echo "I'm in unit tests"
         sh "scripts/unit_tests.sh"
       }
@@ -23,6 +25,7 @@ pipeline {
         sh 'whoami'
         sh 'pwd'
         echo "Deploy website"
+	sh 'll'
         sh "scripts/deploy_website.sh"
       }
     }
