@@ -1,6 +1,0 @@
-[filesystem "80b34880f9fa|IcedTea|1.8.0_212|/dev/sda2"]
-	timestampResolution = 1011 milliseconds
-	minRacyThreshold = 0 nanoseconds
-[filesystem "e034c28e2fc2|IcedTea|1.8.0_212|/dev/sda2"]
-	timestampResolution = 1009 milliseconds
-	minRacyThreshold = 0 nanoseconds
