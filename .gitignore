@@ -1,0 +1,2 @@
+#ignore entire jenkins_home folder
+./jenkins_home/**/workspace
