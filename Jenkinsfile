@@ -7,6 +7,7 @@ pipeline {
 	sh 'pwd' 
 	sh 'ls -la $PWD/scripts'
         sh "scripts/build.sh"
+        # this is a comment
       }
     }
 
