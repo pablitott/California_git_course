@@ -4,7 +4,7 @@ pipeline {
     stage('Build our website') {
       steps {
         sh 'whoami'
-	sh 'pwd'
+	sh 'pwd' 
         sh "scripts/build.sh"
       }
     }
